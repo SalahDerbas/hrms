@@ -4,7 +4,7 @@
     <!-- Brand Logo -->
     <a href="{{route('home')}}" class="brand-link text-center">
         <img src="{{asset('assets/img/Logo.png')}}" alt="Logo"  style="opacity: .8; width:22px;height:22px;">
-        <span class="brand-text font-weight-light ">{{trans('trans.Default_Dashboard')}}</span>
+        <span class="brand-text font-weight-light ">{{ config('app.name', 'Laravel') }}</span>
     </a>
 
 

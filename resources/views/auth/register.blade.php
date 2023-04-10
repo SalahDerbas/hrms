@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ config('app.name', 'Laravel') }}</title>
+    <link href="{{asset('assets/img/Logo.png')}}" rel="icon">
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -209,7 +210,7 @@
     </div><!-- /.card -->
 
     <br><br>
-    <strong>{{trans('trans.Copyright')}} &copy; 2017-2023 <a href="https://nextstagejo.com/"  target="_blank">  <img src="{{asset('assets/img/Logo.png')}}" alt="Logo"  style="opacity: .8; width:18px;height:18px; margin-left: 18px;">   {{trans('trans.Next_Stage_Company')}}</a></strong>
+    <strong>{{trans('trans.Copyright')}} &copy; 2017-2023 <a href="{{env('APP_Company_URL')}}"  target="_blank">  <img src="{{asset('assets/img/Logo.png')}}" alt="Logo"  style="opacity: .8; width:18px;height:18px; margin-left: 18px;">   {{env('APP_Company')}}</a></strong>
 
 </div>
 <!-- /.register-box -->
