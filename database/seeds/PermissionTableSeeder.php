@@ -26,7 +26,24 @@ class PermissionTableSeeder extends Seeder
             'Log_Viewer',
             'Profile',
             'Reset_Password',
-            'Notifications'
+            'Notifications',
+
+
+
+
+
+            //============================
+            'Departments',
+            'Add_Department',
+            'Update_Department',
+            'Delete_Department',
+
+            'Designations',
+            'Add_Designation',
+            'Update_Designation',
+            'Delete_Designation',
+
+
         ];
             foreach ($permissions as $permission) {
 

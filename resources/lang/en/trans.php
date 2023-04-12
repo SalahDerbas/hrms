@@ -69,8 +69,22 @@ return [
     'Permissions_Dashboard'=>'Permissions Dashboard',
     'Roles' => 'Roles',
     'Go_to_Link' => 'Go to Link',
-    '' => '',
-    '' => '',
+
+
+//    ========================================================
+    'Departments' => 'Departments',
+    'Departments_Informations' => 'Departments Informations',
+    'Add_Department' => 'Add Department',
+    'Title' => 'Title',
+    'Update_Department' => 'Update Department',
+    'Delete_Department' => 'Delete Department',
+
+    'Designations' => 'Designations',
+    'Designations_Informations' => 'Designations_Informations',
+    'Add_Designation' => 'Add Designation',
+    'Update_Designation' => 'Update Designation',
+    'Delete_Designation' => 'Delete Designation',
+
 
 
 
